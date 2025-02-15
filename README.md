@@ -9,6 +9,9 @@
 > 咱老百姓就得用自己的机场
 > 老百姓自己的机场 做用的起的机场
 
+开源telegram关键词监控：[https://github.com/Riniba/TelegramMonitor](https://github.com/Riniba/TelegramMonitor)
+
+
 ## 演示地址
 
 - **模板1演示站点**：  
@@ -20,14 +23,16 @@
 - **模板3演示站点**：  
   [https://demo3.riniba.net/](https://demo3.riniba.net/)
   
+- **模板4演示站点**：  
+  [https://demo4.riniba.net/](https://demo4.riniba.net/)
+
 
 ## 使用方法
 
-1. 根据您的需求选择对应的模板文件夹（例如 `riniba_01`）。
-2. 下载该模板文件夹，并将其中的所有文件覆盖到独角卡程序的根目录下。
-3. 登录独角卡后台，在后台选择对应的主题进行切换，即可完成应用新模板。
-4. 有问题请联系 Telegram：https://t.me/Riniba
-5. Telegram交流群组 https://t.me/RinibaGroup
+1. 将template目录下面的所有文件覆盖到独角卡程序的根目录下。
+2. 登录独角卡后台，在后台选择对应的主题进行切换，即可完成应用新模板。
+3. 有问题请联系 Telegram：https://t.me/Riniba
+4. Telegram交流群组 https://t.me/RinibaGroup
 
 > **注意**：本模板只支持独角卡的 **原版程序**，请确保您的程序版本为官方原版。
 
@@ -44,6 +49,9 @@
 ![riniba_02示例图](./image/riniba_02.png)
 
 ![riniba_03示例图](./image/riniba_03.png)
+
+![riniba_04示例图](./image/riniba_04.png)
+
 
 更多示例图可在 `image` 文件夹中查看。
 
