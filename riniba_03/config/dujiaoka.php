@@ -16,7 +16,8 @@ return [
         'hyper' => 'hyper[Bimoe]',
         'riniba_01' => 'riniba_01[riniba]',
         'riniba_02' => 'riniba_02[riniba]',
-        'riniba_03' => 'riniba_03[riniba]'
+        'riniba_03' => 'riniba_03[riniba]',
+        'riniba_04' => 'riniba_04[riniba]'
     ],
     // 语言 
     'language' => [
