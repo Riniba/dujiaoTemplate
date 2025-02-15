@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_','-',strtolower(app()->getLocale())) }}">
-@include('riniba_02.layouts._header')
-
+<head>
+    @include('riniba_02.layouts._header')
+    @include('riniba_02.layouts._css')
+</head>
 <body>
 
     <div class="loader-mask">
@@ -22,7 +24,6 @@
     @include('riniba_02.layouts._nav_header')
     <div class="bodycontent">
     @yield('content')
-
     </div>
     @include('riniba_02.layouts._footer')
 

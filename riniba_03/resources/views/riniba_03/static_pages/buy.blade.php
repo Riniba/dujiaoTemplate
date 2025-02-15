@@ -70,13 +70,12 @@
                   <!-- 价格显示 (如果有原价，也可以加个 <del> 原价 ) -->
                   <div class="h4 d-flex align-items-center my-3">
                     {{ $actual_price }} {{ __('dujiaoka.money_symbol') }}
-                    {{-- 如需显示原价:
-                    @if(isset($original_price) && $original_price > $actual_price)
+                    @if(isset($retail_price))
                       <del class="fs-sm fw-normal text-body-tertiary ms-2">
-                        {{ $original_price }} {{ __('dujiaoka.money_symbol') }}
+                        {{ $retail_price }} {{ __('dujiaoka.money_symbol') }}
                       </del>
                     @endif
-                    --}}
+
                   </div>
   
                   <!-- 批发 / 优惠价列表 (可自行排版) -->
@@ -261,25 +260,14 @@
                   <h4 class="fs-sm fw-medium text-truncate mb-1">{{ $gd_name }}</h4>
                   <div class="h6 mb-0">
                     {{ $actual_price }} {{ __('dujiaoka.money_symbol') }}
-                    {{-- 原价可选
-                    @if(isset($original_price) && $original_price > $actual_price)
+                    @if(isset($retail_price))
                       <del class="fs-xs fw-normal text-body-tertiary">
-                        {{ $original_price }} {{ __('dujiaoka.money_symbol') }}
+                        {{ $retail_price }} {{ __('dujiaoka.money_symbol') }}
                       </del>
                     @endif
-                    --}}
+
                   </div>
                 </div>
-              </div>
-              <div class="h4 d-none d-lg-block mb-0 ms-auto me-4">
-                {{ $actual_price }} {{ __('dujiaoka.money_symbol') }}
-                {{-- 原价可选
-                @if(isset($original_price) && $original_price > $actual_price)
-                  <del class="fs-sm fw-normal text-body-tertiary">
-                    {{ $original_price }} {{ __('dujiaoka.money_symbol') }}
-                  </del>
-                @endif
-                --}}
               </div>
               <div class="d-flex gap-2">
                 <!-- 点击提交同一个表单 #buy-form -->

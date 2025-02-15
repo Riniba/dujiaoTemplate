@@ -1,4 +1,3 @@
-<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +7,3 @@
     @if(\request()->getScheme() == "https")
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     @endif        
-    <link rel="stylesheet" href="/assets/riniba_02/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/riniba_02/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="/assets/riniba_02/css/slick.css">
-    <link rel="stylesheet" href="/assets/riniba_02/css/magnific-popup.css">
-    <link rel="stylesheet" href="/assets/riniba_02/css/line-awesome.min.css">
-    <link rel="stylesheet" href="/assets/riniba_02/css/main.css">
-
-</head>
-

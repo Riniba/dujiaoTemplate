@@ -45,12 +45,12 @@
 
         {{-- 4) 价格及原价 --}}
         <div class="h6 mb-1">
-            ${{ number_format($goods['actual_price'], 2) }}
+            {{ number_format($goods['actual_price'], 2) }} {{ __('dujiaoka.money_symbol') }}
 
             {{-- 如果有原价且大于现价，显示 del 标签 --}}
-            @if(!empty($goods['original_price']) && $goods['original_price'] > $goods['actual_price'])
+            @if(!empty($goods['retail_price']))
                 <del class="fs-sm fw-normal text-body-tertiary">
-                    ${{ number_format($goods['original_price'], 2) }}
+                    {{ number_format($goods['retail_price'], 2) }} {{ __('dujiaoka.money_symbol') }}
                 </del>
             @endif
         </div>
