@@ -1,4 +1,4 @@
-@extends('riniba_02.layouts.default')
+@extends('riniba_03.layouts.default')
 @section('content')
     <style>
         .main-container {
@@ -19,7 +19,7 @@
             transform: translateY(-5px);
         }
         .payment-header {
-            background: #b1d6ff;
+            background: #e0e5eb;
             color: white;
             padding: 1.5rem;
             text-align: center;
