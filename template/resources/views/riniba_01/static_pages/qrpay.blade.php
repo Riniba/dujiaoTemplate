@@ -1,5 +1,11 @@
-@extends('riniba_01.layouts.seo')
+@extends('riniba_01.layouts.default')
 @section('content')
+    
+    <style>
+        .main-container {
+            padding: 5rem;
+        }
+    </style>
     <!-- main start -->
     <section class="main-container">
         <div class="container">
@@ -10,7 +16,7 @@
                             <div class="card-body p-4 text-center">
                                 <h3 class="card-title text-primary">{{ __('dujiaoka.scan_qrcode_to_pay') }}</h3>
                                 <h6>
-                                    <small class="text-muted"><!--{{ __('dujiaoka.payment_method') }}：[{{ $payname }}],--> {{ __('dujiaoka.pay_order_expiration_date_prompt', ['min' => dujiaoka_config_get('order_expire_time', 5)]) }}</small>
+                                    <small class="text-muted">{{ __('dujiaoka.payment_method') }}：[{{ $payname }}], {{ __('dujiaoka.pay_order_expiration_date_prompt', ['min' => dujiaoka_config_get('order_expire_time', 5)]) }}</small>
                                 </h6>
                                 <div class="err-messagep-3">
                                     <img src="data:image/png;base64,{!! base64_encode(QrCode::format('png')->size(200)->generate($qr_code)) !!}" alt="{{ __('dujiaoka.scan_qrcode_to_pay') }}" srcset="">
