@@ -29,7 +29,7 @@
 
 ## 使用方法
 
-1. 将template目录下面的所有文件覆盖到独角卡程序的根目录下。
+1. 将template目录 **里面的** 所有文件覆盖到独角卡程序的根目录下。
 2. 登录独角卡后台，在后台选择对应的主题进行切换，即可完成应用新模板。
 3. 有问题请联系 Telegram：https://t.me/Riniba
 4. Telegram交流群组 https://t.me/RinibaGroup
