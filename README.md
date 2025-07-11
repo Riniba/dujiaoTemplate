@@ -15,16 +15,16 @@
 ## 演示地址
 
 - **模板1演示站点**：  
-  [https://demo1.riniba.net/](https://demo1.riniba.net/)
+  [https://dujiaoka01.riniba-demo.com](https://dujiaoka01.riniba-demo.com)
 
 - **模板2演示站点**：  
-  [https://demo2.riniba.net/](https://demo2.riniba.net/)
+  [https://dujiaoka02.riniba-demo.com](https://dujiaoka02.riniba-demo.com)
   
 - **模板3演示站点**：  
-  [https://demo3.riniba.net/](https://demo3.riniba.net/)
+  [https://dujiaoka03.riniba-demo.com](https://dujiaoka03.riniba-demo.com)
   
 - **模板4演示站点**：  
-  [https://demo4.riniba.net/](https://demo4.riniba.net/)
+  [https://dujiaoka04.riniba-demo.com](https://dujiaoka04.riniba-demo.com)
 
 
 ## 使用方法
